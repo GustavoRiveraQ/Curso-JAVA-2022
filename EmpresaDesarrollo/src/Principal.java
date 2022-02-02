@@ -21,7 +21,11 @@ public class Principal {
 	    
 	    /*CREAR SOFTWARE*/
 	    
-	    Software software1 = new Software ("Administrador Flota",3000,programador1);
+	    Software software1 = new Software ("Administrador Flota",3000);
+	    Software software1 = new Software ("ERP",10000);
+	    Software software1 = new Software ("ADBODEGA",90000);
+	    Software software1 = new Software ("Administrador Flota",3000);
+	    
 	    
 
 		
