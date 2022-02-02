@@ -83,7 +83,7 @@ public class Principal {
 		
 		Comanda comanda1 = new Comanda(mesa1,receta1,5,cocineros1,garzones1);
 		
-		
+		System.out.println();
 		System.out.println("La Mesa Nº "+comanda1.getMesa().getNumeromesa()+ " Pidio "+ comanda1.getCantidad() +" "+ comanda1.getReceta().getNombre()+ " Atendio " + comanda1.getGarzon().get(0).getNombreapellido() + "  Cocino  "+ comanda1.getCocinero().get(0).getNombreapellido() + " y " + comanda1.getCocinero().get(1).getNombreapellido());
 		
 		
